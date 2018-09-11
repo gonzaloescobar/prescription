@@ -1,8 +1,11 @@
 language: go
-services: mongodb
 
 go:
   - 1.9.x
+
+services: mongodb
+
+os: osx
 
 before_install:
   - go get -t -v ./...
