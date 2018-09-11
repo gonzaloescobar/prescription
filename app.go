@@ -7,9 +7,9 @@ import (
 
 	"gopkg.in/mgo.v2/bson"
 
-	. "github.com/gonzaloescobar/prescriptions/config"
-	. "github.com/gonzaloescobar/prescriptions/dao"
-	. "github.com/gonzaloescobar/prescriptions/models"
+	. "github.com/gonzaloescobar/prescription/config"
+	. "github.com/gonzaloescobar/prescription/dao"
+	. "github.com/gonzaloescobar/prescription/models"
 	"github.com/gorilla/mux"
 )
 
