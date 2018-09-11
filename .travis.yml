@@ -6,8 +6,7 @@ go:
   - 1.9.x
 
 before_install:
-  - go get github.com/BurntSushi/toml
-  - go get gopkg.in/mgo.v2
+  - go get github.com/BurntSushi/toml gopkg.in/mgo.v2
   - go get github.com/gorilla/mux
 
 script: 
