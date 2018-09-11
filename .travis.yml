@@ -7,8 +7,6 @@ go:
 before_install:
   - go get -t -v ./...
 
-install:
-  - go get github.com/BurntSushi/toml gopkg.in/mgo.v2 github.com/gorilla/mux
 script: 
   - ./test.sh
 
