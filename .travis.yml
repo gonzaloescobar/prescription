@@ -3,12 +3,10 @@ language: go
 go:
   - 1.9.x
 
-services: mongodb
-
-os: osx
-
 before_install:
   - go get -t -v ./...
+
+services: mongodb
 
 script: 
   - ./test.sh
