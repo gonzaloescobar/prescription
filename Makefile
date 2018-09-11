@@ -5,7 +5,7 @@
     GOTEST=$(GOCMD) test
     GOGET=$(GOCMD) get
     GODEPS=$(GOGET) -t -v ./...
-    BINARY_NAME=CharCounterAPI
+    BINARY_NAME=prescription
 
     all: test build
     build: 
